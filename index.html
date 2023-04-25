@@ -19,19 +19,21 @@
   </div>
 </nav>
 
-<body class="container">
+<body class="container bg-secondary">
   <h2 class="text-center">¿Qué actividad te gustaría hacer?</h2>
  
   <h4 class="text-center">Actividades
     <select id="transporte" onchange="evaluarOpcion(this.value)">
-      <option id="trekking" value="trekking">Trekking</option>
+      <option id="trekking" value="trekking" selected>Trekking</option>
       <option id="natacion" value="natacion">Natacion</option>
       <option id="ferry" value="ferry">Ferry</option>
     </select>
   </h4>
   
+  <center><div id="imagen"></div>
+         <div id="descripccion" ></div></center>
+  
 
-  <div id="imagen" class="d-flex justify-content-center"></div>
 </body>
 
 
